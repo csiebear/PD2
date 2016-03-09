@@ -1,0 +1,28 @@
+Script started on 2016年03月09日 (週三) 15時20分16秒
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ cat timer.cpp1.cpp
+#include <iostream>
+using namespace std;
+
+class Timer{
+	public:
+	void hello()
+	{
+		cout<<"Hello C++!"<<endl;
+	}
+};//end the class with semicolon
+
+int main()
+{
+	Timer tmr;	//create object timr
+	tmr.hello();	//call member function hello()
+	return 0;
+}
+
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ g++ -o timer timre[K[Ker1.cpp
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ ./timer1
+bash: ./timer1: No such file or directory
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ ./timer1[K
+Hello C++!
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ exit
+
+Script done on 2016年03月09日 (週三) 15時20分55秒

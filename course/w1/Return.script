@@ -1,0 +1,16 @@
+Script started on 2016年03月05日 (週六) 16時31分02秒
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ ca[K[Kcat return_minus1.cpp
+int main(){
+	return -1;
+}
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ g++ -o return_minus1.cpp return_minus1.cpp[C[1P return_minus1.cpp[1P return_minus1.cpp[1P return_minus1.cpp[1P return_minus1.cpp
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ echo $?
+0
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ ./retunr_minus1[Crnr_minus1[C[1P_minus1
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ ./return_minus1[8Pecho $?
+255
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ echo $?
+0
+]0;F74004101@2015cpp: ~/course/w1[01;32mF74004101@2015cpp[00m:[01;34m~/course/w1[00m$ exit
+
+Script done on 2016年03月05日 (週六) 16時33分47秒

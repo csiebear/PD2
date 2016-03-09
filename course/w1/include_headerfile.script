@@ -1,0 +1,10 @@
+Script started on 2016年03月02日 (週三) 00時12分56秒
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ g++ -o includeing[K[K[K[King [K_file include[King_file.cpp
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./includeing_file
+bash: ./includeing_file: No such file or directory
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./includeing_file[1Ping_file
+included_file!
+including_file!
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ exit
+
+Script done on 2016年03月02日 (週三) 00時13分28秒

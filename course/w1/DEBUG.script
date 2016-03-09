@@ -1,0 +1,11 @@
+Script started on 2016年03月02日 (週三) 00時17分34秒
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./including_fileeing_fileg++ -o including_file including_file.cpp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg++ -o str_len ste[Kr_len.cpp
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./str_len NCKU
+4
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./str_len NCKUg++ -o str_len str_len.cpp[C[1@ [1@-[1@d[1P[1@D[1@D[1@E[1@B[1@U[1@G
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ g++ -DDEBUG -o str_len str_len.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20P./str_len NCKU
+NCKU
+4
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ exit
+
+Script done on 2016年03月02日 (週三) 00時18分16秒

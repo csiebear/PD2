@@ -1,0 +1,12 @@
+Script started on 2016年03月02日 (週三) 00時23分26秒
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ g++ -o reun[K[Kturn_minus1.cpp[Creturn_minus1.cppereturn_minus1.cpptreturn_minus1.cppureturn_minus1.cpp[Creturn_minus1.cppnreturn_minus1.cpp_return_minus1.cppmreturn_minus1.cppireturn_minus1.cppnreturn_minus1.cppureturn_minus1.cppsreturn_minus1.cpp1return_minus1.cpp return_minus1.cpp
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ echo $?
+0
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./retunr[K[Kr[Krn_minus1
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ ./return_minus1[8Pecho $?
+255
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ echo $?
+0
+]0;F74004101@2015cpp: ~/course/w1F74004101@2015cpp:~/course/w1$ exit
+
+Script done on 2016年03月02日 (週三) 00時24分22秒
