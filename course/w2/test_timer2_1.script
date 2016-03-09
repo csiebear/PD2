@@ -1,0 +1,39 @@
+Script started on 2016年03月09日 (週三) 15時57分32秒
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ cat timer2_1.script[K[K[K[K[K[Kcpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Timer{
+	public:
+	//the member function hello with parameter name
+	void hello(string name)
+	{
+		cout<<"Hello"<<name<<"!"<<endl;
+	}
+
+};
+
+int main()
+{
+	Timer tmr;//create the object
+	string username;//the variable temporarily storing the username
+	cout<<"Please enter your name:";
+//	getline(cin,username); replace the getline with cin
+	cin>>username;
+	tmr.hello(username);
+	return 0;
+}
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ v[Kg++ -o timer2_2[K1 timer~2[K[K2_2[K1.cpp
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ ./timer2_1
+Please enter your name:李碩軒^[OD^[[D^[[D            
+Hello李碩軒!
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ ./timer2_1
+Please enter your name:xu3   李碩軒 李碩軒(測試空白)^[[D^[[D        ^[[D^[[D^[[D            
+Hello李碩軒!
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ ./timer2_1
+Please enter your name:李碩軒	李碩軒(測試tab)
+Hello李碩軒!
+]0;F74004101@2015cpp: ~/PD2/course/w2F74004101@2015cpp:~/PD2/course/w2$ exit
+
+Script done on 2016年03月09日 (週三) 15時58分55秒

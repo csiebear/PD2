@@ -1,0 +1,11 @@
+程式：
+timer1 實踐一個timer的class，在此class下面有簡易的member function名為 hello()。於main中create名為tmr的object並試著操作。
+page7.script 為記錄編譯與執行過程之script檔案
+
+timer2 稍加修改timer1，將hello()改為hello(string)，讓使用者輸入名稱。
+此處取得使用者名稱為使用getline()來獲得。
+page14.script 為記錄編譯與執行過程之script檔案，在執行過程中我們可以測試getline的行為。
+getline的separater為按下enter後的換行字元(\n)，其行為是讀取到enter後，捨棄掉換行字元，保留前面的所有輸入。
+與我們使用cin所讀到的結果會有所不同。利用timer2_1.cpp來測試。
+
+timer2_1.cpp
