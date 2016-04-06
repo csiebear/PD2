@@ -1,0 +1,13 @@
+Script started on 2016年04月06日 (週三) 15時15分03秒
+c]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ cat static [K_const1.cpp
+class Cls {
+public: Cls():x(3) {}
+	static const int x;
+};
+int main() { return 0;}
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ g++ -o co[K[Kstatic_const1 static_const1.c pp
+static_const1.cpp: In constructor ‘Cls::Cls()’:
+static_const1.cpp:2:15: error: ‘const int Cls::x’ is a static data member; it can only be initialized at its definition
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ exit
+
+Script done on 2016年04月06日 (週三) 15時15分26秒

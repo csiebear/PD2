@@ -1,0 +1,16 @@
+Script started on 2016年04月06日 (週三) 15時00分36秒
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ cat const2c[K.cpp
+//this class have an const int variable
+//but its initialization is wrong
+//we directly assign the const int variable x an number
+class Cls{
+	public:
+		const int x=3;
+};
+int main(){return 0;}
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ g++ -o const2 so[K[Kconst2.cpp
+const2.cpp:6:15: error: ISO C++ forbids initialization of member ‘x’ [-fpermissive]
+const2.cpp:6:15: error: making ‘x’ static [-fpermissive]
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ exit
+
+Script done on 2016年04月06日 (週三) 15時01分12秒

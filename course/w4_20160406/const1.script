@@ -1,0 +1,17 @@
+Script started on 2016年04月06日 (週三) 14時56分47秒
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ cat const1.cpp
+//this class have an const int variable
+//but its initialization is wrong
+class Cls{
+	public:
+		Cls(){x=3;}
+		const int x;
+};
+int main(){return 0;}
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ g++ -o const1.[K const1.cpp
+const1.cpp: In constructor ‘Cls::Cls()’:
+const1.cpp:5:3: error: uninitialized member ‘Cls::x’ with ‘const’ type ‘const int’ [-fpermissive]
+const1.cpp:5:11: error: assignment of read-only member ‘Cls::x’
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ exit
+
+Script done on 2016年04月06日 (週三) 14時57分07秒

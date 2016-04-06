@@ -1,0 +1,12 @@
+Script started on 2016年04月06日 (週三) 15時13分30秒
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ g[Kcat static_const2.cpp
+class Cls {
+	public: Cls(){}
+	static const int x = 3;
+};
+int main() { return 0; }
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ g++ -o static_const static_const.cpp [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.cppp[A]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 static_const2.cpp[A]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;F74004101@2016cpp: ~/PD2/course/w4_20160406[01;32mF74004101@2016cpp[00m:[01;34m~/PD2/course/w4_20160406[00m$ exit
+
+Script done on 2016年04月06日 (週三) 15時14分00秒
